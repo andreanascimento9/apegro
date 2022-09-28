@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
 
+import { useState } from 'react';
+
+
+import Card from './components/Card/Card';
+import Button from './components/Button/Button';
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+  const [seed, setSeed] = useState(1);
+  const reset = () => {
+         setSeed(Math.random());
+  }
+ 
+  return (  
+    <>
+    <Card key={seed}/>
+    <Button title="Another fact of Cabra" />
+    </>
+
   );
+
 }
 
 export default App;
