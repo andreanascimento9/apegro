@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/apegro/static/css/main.743c078b.css",
+    "main.js": "/apegro/static/js/main.35076186.js",
+    "static/js/787.455851e3.chunk.js": "/apegro/static/js/787.455851e3.chunk.js",
+    "index.html": "/apegro/index.html",
+    "main.743c078b.css.map": "/apegro/static/css/main.743c078b.css.map",
+    "main.35076186.js.map": "/apegro/static/js/main.35076186.js.map",
+    "787.455851e3.chunk.js.map": "/apegro/static/js/787.455851e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.743c078b.css",
+    "static/js/main.35076186.js"
+  ]
+}
